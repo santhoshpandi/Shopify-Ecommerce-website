@@ -1,0 +1,130 @@
+*{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+  margin: 0;
+  background-color: #c5b498;
+}
+
+.main{
+  margin-left: 20px;
+}
+
+.header{
+  z-index: 10;
+  position: sticky;
+  top: 0px;
+  background-color: #c36454;
+  box-shadow: 0px 10px 20px gray;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;  
+  padding: 20px 25px;
+}
+
+
+
+.search{
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  max-width: 500px;
+}
+
+.name{
+  font-size: 25px;
+  font-weight: bolder;
+  margin-right: 10px;
+}
+.search-items{
+  background-color: transparent;
+  border: none;
+  border-bottom: solid 1px black;
+  height:30px;
+  color: white; 
+  width: 80%;
+  /* transition: transform 0.3s ease; */
+  transition-duration: 0.15s;
+}
+.search-items::placeholder{
+  color: rgb(68, 21, 21);
+  font-size: 15px;
+}
+.search-items:hover {
+  transform: scale(1.03); /* Scale up the search bar by 3% */
+}
+
+.search-items:focus{
+  outline: none;
+}
+
+
+.head-right-ctr a{
+  text-decoration:none;
+  color: rgb(255, 255, 255);
+  transition-duration: 0.15s;
+  font-size: large;
+  margin-left: 10px;
+  padding: 12px;
+  background-color: transparent;
+  border-radius: 5px;
+}
+.head-right-ctr a:hover{
+  text-decoration:none;
+  color: white;
+  background-color: #6b6543;
+}
+
+
+
+
+@media (max-width: 600px) {
+  .head-right-ctr {
+    flex: 1 0 100%; 
+    order: 2;    
+    margin: 1rem -1rem -1rem -1rem; 
+    padding: 5px 1px; 
+    display: flex;
+    justify-content: center;
+    border-top: dashed 2px rgb(60, 0, 0);
+  }
+}
+
+
+
+
+
+.footer{
+  background-color: rgb(44, 38, 38);
+  width: 100%;
+  height: 55px;
+  box-shadow: 0px -10px 10px rgb(139, 137, 137);
+  padding: 8px 0px;
+}
+
+.details{
+  color: #ffffff;
+  font-size: small;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+
+.links img{
+  width: 25px;
+  transition-duration: 0.15s;
+}
+.links img:hover{
+  transform: scale(1.3);
+  filter: drop-shadow(0px 0px 2px yellow);
+}
+.links a{
+  margin-left: 8px;
+  margin-right: 8px;
+}
