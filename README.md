@@ -6,8 +6,12 @@ Website Preview:  https://santhoshpandi.github.io/Header-Footer-Template/
 
 Mobile View:
 
-![mobile_view_1](https://github.com/user-attachments/assets/8f1827a5-b4d8-40b8-9306-a39c1db88c37)
-![mobile_view_2](https://github.com/user-attachments/assets/1f99450a-7e47-4868-959d-984b486adb6c)
+
+![image](https://github.com/user-attachments/assets/00db0d98-7196-4593-8679-73113dffaa2a)
+![image](https://github.com/user-attachments/assets/f4bb1ff7-0ddd-4b55-9be7-bfe9121bf76c)
+
+
+
 
 
 
