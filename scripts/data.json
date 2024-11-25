@@ -1,0 +1,443 @@
+[
+  {
+    "id": 1,
+    "img": "images/product_images/adults-plain-cotton-tshirt-2-pack-black.jpg",
+    "name": "adults-plain-cotton-tshirt-2-pack-black",
+    "ratings": 3.5,
+    "price": 1875
+  },
+  {
+    "id": 2,
+    "img": "images/product_images/adults-plain-cotton-tshirt-2-pack-plus-black.jpg",
+    "name": "adults-plain-cotton-tshirt-2-pack-plus-black",
+    "ratings": 2.5,
+    "price": 2586
+  },
+  {
+    "id": 3,
+    "img": "images/product_images/adults-plain-cotton-tshirt-2-pack-red.jpg",
+    "name": "adults-plain-cotton-tshirt-2-pack-red",
+    "ratings": 1.5,
+    "price": 1802
+  },
+  {
+    "id": 4,
+    "img": "images/product_images/adults-plain-cotton-tshirt-2-pack-teal.jpg",
+    "name": "adults-plain-cotton-tshirt-2-pack-teal",
+    "ratings": 4.5,
+    "price": 2500
+  },
+  {
+    "id": 5,
+    "img": "images/product_images/athletic-cotton-socks-6-pairs.jpg",
+    "name": "athletic-cotton-socks-6-pairs",
+    "ratings": 4,
+    "price": 1125
+  },
+  {
+    "id": 6,
+    "img": "images/product_images/backpack.jpg",
+    "name": "backpack",
+    "ratings": 3,
+    "price": 1364
+  },
+  {
+    "id": 7,
+    "img": "images/product_images/bathroom-rug.jpg",
+    "name": "bathroom-rug",
+    "ratings": 2,
+    "price": 876
+  },
+  {
+    "id": 8,
+    "img": "images/product_images/black-2-slot-toaster.jpg",
+    "name": "black-2-slot-toaster",
+    "ratings": 4.5,
+    "price": 1650
+  },
+  {
+    "id": 9,
+    "img": "images/product_images/blackout-curtains-black.jpg",
+    "name": "blackout-curtains-black",
+    "ratings": 0.5,
+    "price": 2300
+  },
+  {
+    "id": 10,
+    "img": "images/product_images/blackout-curtain-set-beige.webp",
+    "name": "blackout-curtain-set-beige",
+    "ratings": 3,
+    "price": 1450
+  },
+  {
+    "id": 11,
+    "img": "images/product_images/coffeemaker-with-glass-carafe-black.jpg",
+    "name": "coffeemaker-with-glass-carafe-black",
+    "ratings": 2.5,
+    "price": 1150
+  },
+  {
+    "id": 12,
+    "img": "images/product_images/cotton-bath-towels-teal.webp",
+    "name": "cotton-bath-towels-teal",
+    "ratings": 3.5,
+    "price": 1425
+  },
+  {
+    "id": 13,
+    "img": "images/product_images/countertop-blender-64-oz.jpg",
+    "name": "countertop-blender-64-oz",
+    "ratings": 4,
+    "price": 1950
+  },
+  {
+    "id": 14,
+    "img": "images/product_images/double-elongated-twist-french-wire-earrings.webp",
+    "name": "double-elongated-twist-french-wire-earrings",
+    "ratings": 1,
+    "price": 1312
+  },
+  {
+    "id": 15,
+    "img": "images/product_images/duvet-cover-set-blue-queen.jpg",
+    "name": "duvet-cover-set-blue-queen",
+    "ratings": 4.5,
+    "price": 2125
+  },
+  {
+    "id": 16,
+    "img": "images/product_images/duvet-cover-set-blue-twin.jpg",
+    "name": "duvet-cover-set-blue-twin",
+    "ratings": 3.5,
+    "price": 995
+  },
+  {
+    "id": 17,
+    "img": "images/product_images/duvet-cover-set-red-queen.jpg",
+    "name": "duvet-cover-set-red-queen",
+    "ratings": 0.5,
+    "price": 1200
+  },
+  {
+    "id": 18,
+    "img": "images/product_images/electric-glass-and-steel-hot-water-kettle.webp",
+    "name": "electric-glass-and-steel-hot-water-kettle",
+    "ratings": 4,
+    "price": 1499
+  },
+  {
+    "id": 19,
+    "img": "images/product_images/duvet-cover-set-red-twin.jpg",
+    "name": "duvet-cover-set-red-twin",
+    "ratings": 3,
+    "price": 1155
+  },
+  {
+    "id": 20,
+    "img": "images/product_images/facial-tissue-2-ply-18-boxes.jpg",
+    "name": "facial-tissue-2-ply-18-boxes",
+    "ratings": 5,
+    "price": 1999
+  },
+  {
+    "id": 21,
+    "img": "images/product_images/floral-mixing-bowl-set.jpg",
+    "name": "floral-mixing-bowl-set",
+    "ratings": 2,
+    "price": 1350
+  },
+  {
+    "id": 22,
+    "img": "images/product_images/intermediate-composite-basketball.jpg",
+    "name": "intermediate-composite-basketball",
+    "ratings": 2.5,
+    "price": 1825
+  },
+  {
+    "id": 23,
+    "img": "images/product_images/kitchen-paper-towels-30-pack.jpg",
+    "name": "kitchen-paper-towels-30-pack",
+    "ratings": 4,
+    "price": 2499
+  },
+  {
+    "id": 24,
+    "img": "images/product_images/knit-athletic-sneakers-gray.jpg",
+    "name": "knit-athletic-sneakers-gray",
+    "ratings": 3.5,
+    "price": 2750
+  },
+  {
+    "id": 25,
+    "img": "images/product_images/knit-athletic-sneakers-pink.webp",
+    "name": "knit-athletic-sneakers-pink",
+    "ratings": 1,
+    "price": 1985
+  },
+  {
+    "id": 26,
+    "img": "images/product_images/liquid-laundry-detergent-lavender.jpg",
+    "name": "liquid-laundry-detergent-lavender",
+    "ratings": 2,
+    "price": 1199
+  },
+  {
+    "id": 27,
+    "img": "images/product_images/liquid-laundry-detergent-plain.jpg",
+    "name": "liquid-laundry-detergent-plain",
+    "ratings": 3.5,
+    "price": 2599
+  },
+  {
+    "id": 28,
+    "img": "images/product_images/luxury-tower-set-4-piece.jpg",
+    "name": "luxury-tower-set-4-piece",
+    "ratings": 0.5,
+    "price": 1575
+  },
+  {
+    "id": 29,
+    "img": "images/product_images/luxury-tower-set-6-piece.jpg",
+    "name": "luxury-tower-set-6-piece",
+    "ratings": 4,
+    "price": 1180
+  },
+  {
+    "id": 30,
+    "img": "images/product_images/men-athletic-shoes-black.jpg",
+    "name": "men-athletic-shoes-black",
+    "ratings": 3,
+    "price": 1450
+  },
+  {
+    "id": 31,
+    "img": "images/product_images/men-athletic-shoes-green.jpg",
+    "name": "men-athletic-shoes-green",
+    "ratings": 2.5,
+    "price": 1890
+  },
+  {
+    "id": 32,
+    "img": "images/product_images/men-chino-pants-beige.jpg",
+    "name": "men-chino-pants-beige",
+    "ratings": 4.5,
+    "price": 1155
+  },
+  {
+    "id": 33,
+    "img": "images/product_images/men-chino-pants-black.jpg",
+    "name": "men-chino-pants-black",
+    "ratings": 1,
+    "price": 2730
+  },
+  {
+    "id": 34,
+    "img": "images/product_images/men-chino-pants-green.jpg",
+    "name": "men-chino-pants-green",
+    "ratings": 4,
+    "price": 1260
+  },
+  {
+    "id": 35,
+    "img": "images/product_images/men-cozy-fleece-zip-up-hoodie-black.jpg",
+    "name": "men-cozy-fleece-zip-up-hoodie-black",
+    "ratings": 2,
+    "price": 1550
+  },
+  {
+    "id": 36,
+    "img": "images/product_images/men-cozy-fleece-zip-up-hoodie-red.jpg",
+    "name": "men-cozy-fleece-zip-up-hoodie-red",
+    "ratings": 4.5,
+    "price": 2999
+  },
+  {
+    "id": 37,
+    "img": "images/product_images/men-golf-polo-t-shirt-black.jpg",
+    "name": "men-golf-polo-t-shirt-black",
+    "ratings": 3,
+    "price": 1999
+  },
+  {
+    "id": 38,
+    "img": "images/product_images/men-golf-polo-t-shirt-blue.jpg",
+    "name": "men-golf-polo-t-shirt-blue",
+    "ratings": 1.5,
+    "price": 1100
+  },
+  {
+    "id": 39,
+    "img": "images/product_images/men-golf-polo-t-shirt-red.jpg",
+    "name": "men-golf-polo-t-shirt-red",
+    "ratings": 3.5,
+    "price": 1470
+  },
+  {
+    "id": 40,
+    "img": "images/product_images/men-navigator-sunglasses-brown.jpg",
+    "name": "men-navigator-sunglasses-brown",
+    "ratings": 2,
+    "price": 1530
+  },
+  {
+    "id": 41,
+    "img": "images/product_images/men-navigator-sunglasses-silver.jpg",
+    "name": "men-navigator-sunglasses-silver",
+    "ratings": 3,
+    "price": 1580
+  },
+  {
+    "id": 42,
+    "img": "images/product_images/men-slim-fit-summer-shorts-beige.jpg",
+    "name": "men-slim-fit-summer-shorts-beige",
+    "ratings": 4,
+    "price": 1250
+  },
+  {
+    "id": 43,
+    "img": "images/product_images/men-slim-fit-summer-shorts-black.jpg",
+    "name": "men-slim-fit-summer-shorts-black",
+    "ratings": 1,
+    "price": 1770
+  },
+  {
+    "id": 44,
+    "img": "images/product_images/men-slim-fit-summer-shorts-gray.jpg",
+    "name": "men-slim-fit-summer-shorts-gray",
+    "ratings": 2,
+    "price": 1350
+  },
+  {
+    "id": 45,
+    "img": "images/product_images/non-stick-cooking-set-15-pieces.webp",
+    "name": "non-stick-cooking-set-15-pieces",
+    "ratings": 0.5,
+    "price": 1200
+  },
+  {
+    "id": 46,
+    "img": "images/product_images/plain-hooded-fleece-sweatshirt-teal.jpg",
+    "name": "plain-hooded-fleece-sweatshirt-teal",
+    "ratings": 3.5,
+    "price": 1525
+  },
+  {
+    "id": 47,
+    "img": "images/product_images/plain-hooded-fleece-sweatshirt-yellow.jpg",
+    "name": "plain-hooded-fleece-sweatshirt-yellow",
+    "ratings": 4,
+    "price": 2500
+  },
+  {
+    "id": 48,
+    "img": "images/product_images/round-airtight-food-storage-containers.jpg",
+    "name": "round-airtight-food-storage-containers",
+    "ratings": 0,
+    "price": 1990
+  },
+  {
+    "id": 49,
+    "img": "images/product_images/round-sunglasses-black.jpg",
+    "name": "round-sunglasses-black",
+    "ratings": 2.5,
+    "price": 1235
+  },
+  {
+    "id": 50,
+    "img": "images/product_images/round-sunglasses-gold.jpg",
+    "name": "round-sunglasses-gold",
+    "ratings": 4.5,
+    "price": 2799
+  },
+  {
+    "id": 51,
+    "img": "images/product_images/sky-flower-stud-earrings.webp",
+    "name": "sky-flower-stud-earrings",
+    "ratings": 1,
+    "price": 1299
+  },
+  {
+    "id": 52,
+    "img": "images/product_images/straw-sunhat.webp",
+    "name": "straw-sunhat",
+    "ratings": 4,
+    "price": 1475
+  },
+  {
+    "id": 53,
+    "img": "images/product_images/trash-can-with-foot-pedal-30-liter-tall.jpg",
+    "name": "trash-can-with-foot-pedal-30-liter-tall",
+    "ratings": 3,
+    "price": 1850
+  },
+  {
+    "id": 54,
+    "img": "images/product_images/trash-can-with-foot-pedal-50-liter.jpg",
+    "name": "trash-can-with-foot-pedal-50-liter",
+    "ratings": 2.5,
+    "price": 1220
+  },
+  {
+    "id": 55,
+    "img": "images/product_images/women-stretch-popover-hoodie-black.jpg",
+    "name": "women-stretch-popover-hoodie-black",
+    "ratings": 4.5,
+    "price": 1300
+  },
+  {
+    "id": 56,
+    "img": "images/product_images/umbrella.jpg",
+    "name": "umbrella",
+    "ratings": 0,
+    "price": 2950
+  },
+  {
+    "id": 57,
+    "img": "images/product_images/vanity-mirror-silver.jpg",
+    "name": "vanity-mirror-silver",
+    "ratings": 3,
+    "price": 1400
+  },
+  {
+    "id": 58,
+    "img": "images/product_images/women-beach-sandals.jpg",
+    "name": "women-beach-sandals",
+    "ratings": 1.5,
+    "price": 1699
+  },
+  {
+    "id": 59,
+    "img": "images/product_images/women-chiffon-beachwear-coverup-black.jpg",
+    "name": "women-chiffon-beachwear-coverup-black",
+    "ratings": 3.5,
+    "price": 2200
+  },
+  {
+    "id": 60,
+    "img": "images/product_images/women-chunky-beanie-gray.webp",
+    "name": "women-chunky-beanie-gray",
+    "ratings": 4.5,
+    "price": 2299
+  },
+  {
+    "id": 61,
+    "img": "images/product_images/women-french-terry-fleece-jogger-camo.jpg",
+    "name": "women-french-terry-fleece-jogger-camo",
+    "ratings": 2,
+    "price": 2100
+  },
+  {
+    "id": 62,
+    "img": "images/product_images/women-french-terry-fleece-jogger-gray.jpg",
+    "name": "women-french-terry-fleece-jogger-gray",
+    "ratings": 3,
+    "price": 1750
+  },
+  {
+    "id": 63,
+    "img": "images/product_images/women-knit-ballet-flat-black.jpg",
+    "name": "women-knit-ballet-flat-black",
+    "ratings": 3.5,
+    "price": 2499
+  }
+]

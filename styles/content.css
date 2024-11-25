@@ -82,7 +82,7 @@ body{
   border: none;
 }
 
-.add-cart-btn:active{
+.add-cart-btn.added{
   background-color: rgb(173, 43, 0);
   color: white;
 }
