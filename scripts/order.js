@@ -1,3 +1,5 @@
+
+
 var order_ar = JSON.parse(localStorage.getItem('order'))||[]
 var oid=order_ar.length+1;
 var total_amount=0;
@@ -13,17 +15,29 @@ let day = weekday[two_days_after.getDay()];
  var d_date = date+"-"+month+"-"+year+" ("+(day)+")";
 
 
+
+
 function add_to_order()
 {
   let address= document.getElementById('address').value
   let carts = [...cart_ar]; // to copy the array
   if(cart_ar.length==0)
   {
-    alert("Cart is Empty 😅")
+    alertbox.render({
+      alertIcon: 'warning',
+      title: 'Warning',
+      message: 'Cart is Empty 😥',
+      btnTitle: 'Ok',
+      });
   }
   else if(address.trim().length==0)
   {
-    alert("Enter valid Address 😅")
+    alertbox.render({
+      alertIcon: 'warning',
+      title: 'Warning',
+      message: 'Kindly enter your address 😋',
+      btnTitle: 'Ok',
+      });
   }
   else if(confirm("Confirm the order placement 🙋‍♂️"))
   {
@@ -40,10 +54,34 @@ function add_to_order()
       localStorage.setItem('cart',JSON.stringify(cart_ar))
       cart_cnt=0
       console.log(order_ar)
-      window.print()
+      speak()
+      show_pop_up()
       show_cart();
   }
   localStorage.setItem('order',JSON.stringify(order_ar))
+}
+
+function speak() {
+  const utterance = new SpeechSynthesisUtterance("Thank you for your purchase.. kindly link with us");
+
+  
+  const voices = speechSynthesis.getVoices();
+  utterance.voice = voices[1]; 
+
+  speechSynthesis.speak(utterance);
+}
+
+function show_pop_up()
+{
+  alertbox.render({
+    alertIcon: 'success',
+    title: 'Thank You for your purchase!',
+    message: 'Order Confirmed 😎',
+    btnTitle: 'Ok',
+    themeColor: '#4fcc33',
+     btnColor: '#4fcc33',
+    btnColor: true
+    });
 }
 
 
