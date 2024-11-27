@@ -1,13 +1,20 @@
-*{
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+* {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;  
 }
-
+*::-webkit-scrollbar{
+  display: none; /* chrome */
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
 html{
   scroll-behavior: smooth;
 }
 body{
   margin: 0;
   background-color: #f5e1bf;
+  /* background-color: #93E082; */
   display: flex;
   flex-direction: column;
 }       

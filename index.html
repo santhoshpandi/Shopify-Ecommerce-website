@@ -4,9 +4,14 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link rel="icon" href="images/icons/cart_icon.gif">
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/content.css">
+    <link rel="stylesheet" href="styles/other_brand.css">
+    <link rel="stylesheet" href="styles/cart.css">
     <link rel="stylesheet" href="styles/footer.css">
     <link rel="stylesheet" href="styles/mediaquery.css">
     <title>Shopify🛒</title>
@@ -23,16 +28,17 @@
           <a onclick="process()" class="more">Trending
             <img src="images/icons/fire_flame.gif" alt="🔥">
           </a>
-          <a href="" class="contact">Size Chart📈</a>
-          <a href="#" class="cart">Cart🛒
+          <a onclick="show_other_brands()" class="contact"> Brands📈</a>
+          <a onclick="show_cart()" class="cart">Cart🛒
             <div class="cart-cnt">0</div>
           </a>   
         </nav>
       </div>
     </header>
 
-    <div class="main">   
-    </div>
+    <div class="main"></div>
+    <div class="brands-ctr"></div>
+    <div class="cart-ctr"></div>
 
     <footer class="footer">
       <div class="details">
@@ -52,7 +58,9 @@
     <a class="go-to-top-btn" href="#"><img src="images/icons/up-arrow.png" alt=""></a>
 
     <script src="scripts/home.js"></script> 
-    <script src="scripts/cart.js"></script>   
+    <script src="scripts/cart.js"></script> 
+    <script src="scripts/order.js"></script>
+    <script src="scripts/other_brand.js"></script>   
   </body>
 
 </html>

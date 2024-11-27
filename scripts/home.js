@@ -1,3 +1,8 @@
+var brands_ctr = document.querySelector('.brands-ctr');
+var search_bar = document.querySelector('.search');
+var cart_ctr = document.querySelector('.cart-ctr');
+var main = document.querySelector('.main');
+
 
 const product_box = document.querySelector('.main')
 var products=[]
@@ -55,7 +60,7 @@ function generate_items(products){
           </select>
         </div>
         <div class="add-cart">
-          <button class="add-cart-btn" onclick="cart_added(event)">
+          <button class="add-cart-btn" onclick="cart_added(event,${product.id})">
           Add to Cart
           </button>
         </div>
@@ -63,6 +68,11 @@ function generate_items(products){
         `;
   })
 
+  main.style.display=''
+  search_bar.style.display=''
+  brands_ctr.style.display='none'
+  cart_ctr.style.display='none'
+  
   product_box.innerHTML = html;
 
 }

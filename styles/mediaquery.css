@@ -15,6 +15,10 @@
   .main{
     grid-template-columns: repeat(2,1fr);
   }
+
+  .cart-right-ctr{
+    flex-grow: 1;
+  }
 }
 
 @media only screen and (min-width:768px) and (max-width:1023px)
