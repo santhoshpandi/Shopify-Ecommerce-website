@@ -7,7 +7,7 @@ var total_amount=0;
 var two_days_after = new Date();
 two_days_after.setDate(two_days_after.getDate()+2);
 let date = two_days_after.getDate();
-let month = two_days_after.getMonth();
+let month = two_days_after.getMonth()+1; // Add 1 because months are 0-based
 let year = two_days_after.getFullYear();
 const weekday = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
 let day = weekday[two_days_after.getDay()];
